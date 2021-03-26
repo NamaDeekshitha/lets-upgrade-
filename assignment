@@ -1,0 +1,28 @@
+//first.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>upgrade</h1>
+    <h2 class='a1'>lets upgrade</h2>
+    <p id='a2'>Dom</p>
+    
+    <script src="first.js"></script>
+
+
+</body>
+</html>
+
+//first.js
+
+var fa=document.getElementsByTagName('h1');
+console.log(fa[0].innerText);
+
+ var fa1=document.getElementsByClassName('a1');
+ fa1[0].innerText="Deekshitha";
+
+ var fa2=document.getElementById('a2');
+ console.log(fa2);
